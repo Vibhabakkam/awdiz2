@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/06489297db.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    *{ 
+        padding: 0%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #navbar { 
+        background-color: #2874f0;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid red;
+        color: white;
+
+    }
+    #navbar > div {
+        display: flex;
+        
+    }
+    #logodiv{
+        padding-top: 10px;
+        margin-right: 15px;
+        border: 1px solid red;
+        line-height: 0;
+    }
+    #logodiv> div :nth-child(1){
+        font-size: 24px;
+        border: 1px solid red;
+    }
+    #logodiv> div :nth-child(1) > a {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #logodiv> div :nth-child(2) > a{
+        font-size: 12px;
+    }
+    #logodiv> div :nth-child(2) > a > img {
+        width: 7px;
+        height: 5px;
+    }
+    #searchfield {
+        background-color: white;
+        height: 37px;
+        width: 600px;
+        border: 1px solid red;
+    }
+    #searchfield > input {
+        height: 100%;
+        width: 90%;
+        margin-left: 3%;
+        color: #b5b5b5;
+        font-size: 14px;
+    }
+    #searchfield > i{
+        color: #2874f0;
+        background-color: white;
+
+    }
+    #navbar > div :nth-child(1) >div :nth-child(2) {
+        margin-top: 10px;
+         }
+
+         #rightside {
+            display: flex;
+            width: 400px;
+            justify-content: space-around;
+            font-weight: 500;
+            border: 1px solid red;
+         }
+         #rightside > div{
+            height: 37px;
+            margin-top: 10px;
+            border: 1px solid red;
+         }
+         #rightside > div > p {
+            border: 1px solid red;
+            margin-top: 7px;
+         }
+         #rightside > div :nth-child(3) > i span{
+            margin-top: 10px;
+         }
+         #rightside > div :nth-child(4) > i span{
+            margin-top: 10px;
+         }
+
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <div id="logodiv">
+                <div>
+                    <a> <i> Flipkart</i></a>
+                </div>
+                <div>
+                    <a>Explore<span style="color: yellow;"> plus</span>
+                    <img src="plus_aef861.png" alt="symbol"/>
+                    </a>
+                </div>
+            </div>
+            <div id="searchfield ">
+                <div>
+                    <input type="text" placeholder="Search for products,brands and more"/> 
+                    <i class="fa-solid fa-magnifying-glass fa-1"></i>
+                </div>
+            </div>
+        </div>
+        <div id="rightside">
+            <div> <p>Vibha </p></div>
+            <div> <p>  Become a seller</p></div>
+            <div>
+                <span>More</span>
+                <i class="fa-sharp fa-solid fa-chevron-down fa-s"></i>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span> Cart</span>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
