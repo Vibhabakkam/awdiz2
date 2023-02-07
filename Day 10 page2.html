@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #container3 {
+            padding-top: 30px;
+            margin-top: 120px;
+            max-width: 1320px;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: space-around;
+            margin-left: 160px;
+            
+        }
+
+        #home1 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        #img1 {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            background-color: #7a6ad8;
+            border-radius: 50%;
+            top: -95px;
+            margin-left: 160px;
+            margin-bottom: -300px;
+        }
+
+        #img1>img {
+            max-width: 70px;
+            width: 60%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-top: -15px
+        }
+
+        #img1>img:hover {
+            height: 80px;
+        }
+
+        #div {
+            height: 300px;
+            width: 300px;
+        }
+
+        #box1 {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: #f1f0fe;
+            margin-bottom: -45px;
+            margin-right: 40px;
+
+        }
+
+        #box1>h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            color: #1e1e1e;
+        }
+
+        #box1>p {
+            color: #4a4a4a;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        #a>a {
+            display: inline-block;
+            background-color: #fff;
+            color: #7a6ad8;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            margin-top: -120px;
+            margin-left: 15px;
+            border-radius: 20px;
+        }
+
+        #home2 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        #img2 {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            background-color: #7a6ad8;
+            border-radius: 50%;
+            top: -95px;
+            margin-left: 160px;
+            margin-bottom: -300px;
+        }
+
+        #img2>img {
+            max-width: 70px;
+            width: 60%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-top: -15px
+        }
+
+        #img2>img:hover {
+            height: 80px;
+        }
+
+        #div2 {
+            height: 300px;
+            width: 300px;
+        }
+
+        #box2 {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: #f1f0fe;
+            margin-bottom: -45px;
+            margin-right: 40px;
+        }
+
+        #box2>h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            color: #1e1e1e;
+        }
+
+        #box2>p {
+            color: #4a4a4a;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        #a2>a {
+            display: inline-block;
+            background-color: #fff;
+            color: #7a6ad8;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            margin-top: -120px;
+            margin-left: 15px;
+            border-radius: 20px;
+        }
+
+        #home3 {
+            flex: 0 0 auto;
+            width: 33.33333333%;
+            max-width: 100%;
+            height: 200px;
+        }
+
+        #img3 {
+            width: 140px;
+            height: 140px;
+            display: inline-block;
+            text-align: center;
+            line-height: 150px;
+            background-color: #7a6ad8;
+            border-radius: 50%;
+            top: -95px;
+            margin-left: 160px;
+            margin-bottom: -300px;
+        }
+
+        #img3>img {
+            max-width: 70px;
+            width: 60%;
+            overflow: hidden;
+            vertical-align: middle;
+            margin-left: 5px;
+            margin-top: -15px
+        }
+
+        #img3>img:hover {
+            height: 80px;
+        }
+
+        #div3 {
+            height: 300px;
+            width: 300px;
+        }
+
+        #box3 {
+            font-family: 'Poppins', sans-serif;
+            border-radius: 25px;
+            padding: 40px 20px;
+            background-color: #f1f0fe;
+            margin-bottom: -45px;
+            margin-right: 40px;
+        }
+
+        #box3>h4 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            line-height: 30px;
+            color: #1e1e1e;
+        }
+
+        #box3>p {
+            color: #4a4a4a;
+            margin-bottom: 25px;
+            font-size: 14px;
+            line-height: 28px;
+        }
+
+        #a3>a {
+            display: inline-block;
+            background-color: #fff;
+            color: #7a6ad8;
+            font-size: 14px;
+            font-weight: 500;
+            height: 40px;
+            line-height: 40px;
+            padding: 0px 25px;
+            margin-top: -120px;
+            margin-left: 15px;
+            border-radius: 20px;
+        }
+        .contanier4{
+            width: 100%;
+            border: none;
+            margin-top: 250px;
+            height: 600px;
+            display: flex;
+            justify-content: right;
+        }
+        .divw{
+            height: 600px;
+            border: none;
+            width: 38%;
+            background-color: #7a6ad8;
+            border-radius: 20px;
+            
+        }
+        #pw{
+            height:30px;
+            width:250px;
+            margin-top: 5px;
+            margin-left: 15px;
+            font-size: 24px;
+            border: none;
+
+        }
+        #pbtn{
+            height: 30px;
+            width: 30px;
+            margin-top: -30px;
+            margin-left: 320px;
+            border-radius: 25px;
+            display: flex;
+            background-color: #7a6ad8;
+            color: white;
+            border: none;
+            padding-left: 14px;
+        }
+        #para1{
+            height: 85px;
+            width: 350px;
+            margin-left: 10px;
+            margin-top: 5px;
+            color: black;
+            border: none;
+        }
+        .divw :nth-child(1){
+            border: 1px solid red;
+            height: 140px;
+            width: 400px;
+           margin-top: 80px;
+           margin-left: 85px;
+           background-color: #ffffff;
+           border-radius: 25px;
+           color: #7a6ad8;
+        }
+        .divw :nth-child(2){
+            border: 1px solid red;
+            width: 450px;
+            height: 60px;
+            margin-left: 70px;
+            margin-top: 40px;
+            background-color: #ffffff;
+            border-radius: 30px;
+        } 
+
+        .divw :nth-child(3){
+            border: 1px solid red;
+            width: 450px;
+            height: 60px;
+            margin-left: 70px;
+            margin-top: 40px;
+            background-color: #ffffff;
+            border-radius: 30px;
+        }
+        .divw :nth-child(4){
+            border: 1px solid red;
+            width: 450px;
+            height: 60px;
+            margin-left: 70px;
+            margin-top: 40px;
+            background-color: #ffffff;
+            border-radius: 30px;
+        }
+        .diva{
+            height: 500px;
+            border: none;
+            border-radius: 10px;
+            width: 35%;
+            margin-right: 100px;
+            background-color: #f1f0fe;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container3">
+        <div id="home1">
+            <div id="img1">
+                <img src="https://templatemo.com/templates/templatemo_586_scholar/assets/images/service-01.png">
+            </div>
+            <div id="div">
+                <div id="box1">
+                    <h4>Online Degrees</h4>
+                    <p>Whenever you need free templates in HTML CSS, you just remember TemplateMo website.</p>
+                </div>
+                <div id="a">
+                    <a>Read More</a>
+                </div>
+            </div>
+        </div>
+        <div id="home2">
+            <div id="img2">
+                <img src="https://templatemo.com/templates/templatemo_586_scholar/assets/images/service-02.png">
+            </div>
+            <div id="div2">
+                <div id="box2">
+                    <h4>Short Courses</h4>
+                    <p>You can browse free templates based on different tags such as digital marketing, etc.</p>
+                </div>
+                <div id="a2">
+                    <a>Read More</a>
+                </div>
+            </div>
+        </div>
+        <div id="home3">
+            <div id="img3">
+                <img src="https://templatemo.com/templates/templatemo_586_scholar/assets/images/service-03.png">
+            </div>
+            <div id="div3">
+                <div id="box3">
+                    <h4>Web Experts</h4>
+                    <p>You can start learning HTML CSS by modifying free templates from our website too.</p>
+                </div>
+                <div id="a3">
+                    <a>Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=" contanier4">
+        <div class="divw">
+            <div>
+                <div id="pw">Where shall we begain ?
+                    <div id="pbtn"> +</div>
+                </div>
+                <div id="para1"> Dolor almesit amet, consectetur adipiscing elit, sed doesn't eiusmod tempor incididunt ut labore consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</div>
+            </div>
+            <div> How do we  work together</div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="diva">
+           <h4> About us </h4><br>
+           <h1> What Make Us The Best Academy Online? </h1><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravid risus commodo.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/06489297db.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        .bigdiv {
+            background-color: #7b6ada;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: space-around;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .nav1 {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 160px;
+            margin-left: 10px;
+            margin-right: 20px;
+
+        }
+
+        .nav1> :nth-child(1) {
+
+            height: 80px;
+            width: 35%;
+            margin-top: 35px;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .nav1> :nth-child(2) {
+            border: none;
+            height: 100px;
+            width: 55%;
+            margin-top: 35px;
+            color: white;
+        }
+
+        .indiv {
+            background-color: #7b6ada;
+            border: 2px solid white;
+            height: 30px;
+            color: white;
+            width: 300px;
+            height: 30px;
+            display: flex;
+            border-radius: 5px;
+            justify-content: space-between;
+
+        }
+
+        .input {
+            background-color: #8879dc;
+            border: none;
+            color: white;
+            outline: none;
+
+
+        }
+
+        .btn {
+            width: 20px;
+            height: 30px;
+            background-color: #7b6ada;
+            color: white;
+            border: none;
+        }
+
+        .btn2 {
+            height: 40px;
+            width: 120px;
+            background-color: #7b6ada;
+            color: white;
+            border: none;
+            outline: none;
+            font-size: 20px;
+            margin-left: 10px;
+        }
+
+        .btn2:hover {
+            background-color: #8879dc;
+            border-radius: 15px;
+        }
+
+        #container2 {
+            background: #7a6ad8;
+            color: #fff;
+            height: 650px;
+            width: 100%;
+            border-bottom-right-radius: 200px;
+        }
+
+        #icon {
+            display: flex;
+            flex-direction: column;
+            padding-top: 500px;
+
+        }
+
+        .dot {
+            height: 50px;
+            width: 50px;
+            background-color: #9588e1;
+            color: #fff;
+            border-radius: 70%;
+            margin-top: 10px;
+            margin-left: 100px;
+        }
+
+        .dot>i {
+            margin-left: 18px;
+            margin-top: 13px;
+            font-size: 25px;
+        }
+
+        .btn3 {
+            width: 20px;
+            height: 30px;
+            background-color: #7b6ada;
+            color: white;
+            border: none;
+        }
+
+        #img {
+            height: 500px;
+            width: 1000px;
+            margin-left: 200px;
+            border: 1px solid white;
+            margin-top: -550px;
+            position: relative;
+            color: white;
+            background-image: url(d10\ background.jpg);
+            border-radius: 20px;
+
+        }
+
+        #img>img {
+            height: 500px;
+            width: 1000px;
+
+            border-radius: 20px;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 8px;
+            left: 16px;
+            height: 38px;
+            width: 150px;
+            background-color: #7b6ada;
+            color: white;
+            border: none;
+            outline: none;
+            font-size: 30px;
+            border-radius: 10px;
+
+        }
+
+        .centered {
+            position: absolute;
+            top: 20%;
+            left: 22%;
+            transform: translate(-50%, -50%);
+            font-size: 40px;
+            font-weight: 50px;
+        }
+
+        .cnt2 {
+            position: absolute;
+            top: 45%;
+            left: 40%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+        }
+
+        .cnt3 {
+            position: absolute;
+            bottom: 8px;
+            left: 16px;
+            height: 38px;
+            width: 150px;
+            background-color: #7b6ada;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bigdiv">
+        <nav class="nav1">
+            <div>
+                SCHOLAR
+                <div class="indiv">
+                    <input class="input" type="text" placeholder="type something">
+                    <button class="btn">
+                        <i class="fa-solid fa-magnifying-glass" style="font-size: large"></i>
+                    </button>
+
+                </div>
+
+            </div>
+            <div>
+                <button class="btn2">Home</button>
+                <button class="btn2"> <a href="Day 10 page2.html"> Services</a></button>
+                <button class="btn2"><a> Courses</a> </button>
+                <button class="btn2"><a> Team</a> </button>
+                <button class="btn2"><a> Events</a> </button>
+                <button class="btn2"><a> Register</a> </button>
+            </div>
+        </nav>
+    </div>
+    <div id="container2">
+        <div id="icon">
+            <span class="dot"> <i class="fa-solid fa-angle-left"></i></span>
+            <span class="dot"> <i class="fa-solid fa-angle-right"></i></span>
+        </div>
+        <div id="img">
+            <div class="topleft"> <a> our courses</a></div>
+            <div class="centered"> With Scholar Teacher, </br>
+                Everything Is Easier
+            </div>
+            <div class="cnt2"> Scholar is free CSS template designed by TemplateMo for online educational related
+                websites.
+                This layout is based on the famous Bootstrap v5.3.0 framework.</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
