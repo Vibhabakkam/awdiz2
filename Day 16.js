@@ -1,4 +1,4 @@
-
+//if elese
 var number1 = 10;
 var number2 = 20;
 if (number2 <= number1) {
@@ -36,7 +36,8 @@ else {
     console.log(" provided number is odd   ..");
 }
 
-
+ 
+//switch case
 const expr = 'Papayas';
 switch (expr) {
   case 'Oranges':
@@ -67,7 +68,7 @@ switch ( fruit) {
     console.log(`Sorry, we are out of ${fruit}.`);
 }
 
-
+//templets litrals
 var myName = "Vibha";
 var city = "NaviMumbai";
 console.log(`my name is ${ myName} & Im from ${city}` );
