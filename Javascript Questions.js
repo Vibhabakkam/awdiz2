@@ -22,7 +22,7 @@ for (var i = 20; i <= 40; i++) {
     }
 }
 
-//q 5 print the count from 20-40 which are even.
+//Q3 print the count from 20-40 which are even.
 
 var count = 0
 for (var i = 20; i <= 40; i++) {
@@ -31,3 +31,19 @@ for (var i = 20; i <= 40; i++) {
     }
 }
 console.log(count)
+
+//Q4 print count of numbers d]from 147-254 which are divisiable by 3 and odd.
+var count = 0;
+for (var i=147; i<=254; i++){
+    if(i%3===0){
+        count++;
+    }
+}
+console.log(count)
+var count = 0
+for ( var i =147; i <= 254; i++){
+    if((i%2)==1){
+            count++;
+    }
+}
+console.log (count)
