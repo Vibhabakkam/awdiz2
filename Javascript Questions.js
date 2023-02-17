@@ -16,8 +16,18 @@ else {
 }
 
 // Q2 print the number from 20-40 which are even.
-for ( var i =20; i <= 40; i++){
-    if(i%2===0){
-                     console.log(i)
+for (var i = 20; i <= 40; i++) {
+    if (i % 2 === 0) {
+        console.log(i)
     }
- }
+}
+
+//q 5 print the count from 20-40 which are even.
+
+var count = 0
+for (var i = 20; i <= 40; i++) {
+    if (i % 2 === 0) {
+        count++;
+    }
+}
+console.log(count)
