@@ -41,4 +41,15 @@ var count = 0;
  }
  console.log(count)
 
- 
+ // Q5 find count of  number 45 from given array
+// [ 12, 13, 45 , 67, 43 , 45, 76, 89,54, 23,7, 8797,243,23234 };
+var count = 0;
+var array = [  12, 13, 45 , 67, 43 , 45, 76, 89,54, 23,7, 8797,243,23234];
+for (var i = 0; i < array.length ; i++){
+    if( array [i] === 45){
+        count++;
+    }
+
+}
+console.log( count)
+
