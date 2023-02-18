@@ -34,16 +34,11 @@ console.log(count)
 
 //Q4 print count of numbers d]from 147-254 which are divisiable by 3 and odd.
 var count = 0;
-for (var i=147; i<=254; i++){
-    if(i%3===0){
-        count++;
-    }
-}
-console.log(count)
-var count = 0
-for ( var i =147; i <= 254; i++){
-    if((i%2)==1){
-            count++;
-    }
-}
-console.log (count)
+ for (var i=147; i<=254; i++){
+    if((i%3 === 0) && (i%2 !== 0)){
+                 count++;
+     }
+ }
+ console.log(count)
+
+ 

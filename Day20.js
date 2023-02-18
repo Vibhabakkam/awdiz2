@@ -1,6 +1,6 @@
-// for ( var i = 1; i <=10; i++ ){
-//     console.log(i)
-// }
+for ( var i = 1; i <=10; i++ ){
+    console.log(i)
+}
 
 // // 1st intteration:
 // // step 1 - starting at 1
@@ -44,47 +44,40 @@
 
 
 
-// for ( var i= 10; i > 1; i--){
-//     console.log(i);
-// }
-// //1st iteration
-// // step 1 - i = 10 ;
-// // step 2 - checking ending ; i>1, 10>1 true
-// // step 3 - code executed 
+for ( var i= 10; i > 1; i--){
+    console.log(i);
+}
+//1st iteration
+// step 1 - i = 10 ;
+// step 2 - checking ending ; i>1, 10>1 true
+// step 3 - code executed 
 
 
 
-// // q 4 print the number from 20-40 which are even.
-// for ( var i =20; i <= 40; i++){
-//     if(i%2===0){
-//             console.log(i)
-//     }
-// }
+// q 4 print the number from 20-40 which are even.
+for ( var i =20; i <= 40; i++){
+    if(i%2===0){
+            console.log(i)
+    }
+}
 
-// //q 5 print the count from 20-40 which are even.
+//q 5 print the count from 20-40 which are even.
 
-// var count = 0
-// for ( var i =20; i <= 40; i++){
-//     if(i%2===0){
-//             count++;
-//     }
-// }
-// console.log (count)
+ var count = 0
+for ( var i =20; i <= 40; i++){
+     if(i%2===0){
+             count++;
+    }
+}
+ console.log (count)
 
 
 
 //Q 6 print count of numbers d]from 147-254 which are divisiable by 3 and odd.
 var count = 0;
-for (var i=147; i<=254; i++){
-    if(i%3===0){
-        count++;
-    }
-}
-console.log(count)
-var count = 0
-for ( var i =147; i <= 254; i++){
-    if((i%2)==1){
-            count++;
-    }
-}
-console.log (count)
+ for (var i=147; i<=254; i++){
+    if((i%3 === 0) && (i%2 !== 0)){
+                 count++;
+     }
+ }
+ console.log(count)
