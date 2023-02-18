@@ -75,3 +75,11 @@ var add = 0
  }
  console.log (add ,"add here")
 
+  var firstDigit = 57689
+var secondDigit = 346578
+var add = 0 
+ for ( var i = firstDigit + 1 ; i< secondDigit; i = i+2){
+     add = add + i
+ }
+ console.log (add ,"add here")
+
