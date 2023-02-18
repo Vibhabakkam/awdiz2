@@ -53,3 +53,15 @@ for (var i = 0; i < array.length ; i++){
 }
 console.log( count)
 
+// Q6 find number which addition target
+
+var nums = [ 5,4,2,7 ]
+var target = 9
+for (i = 0; i<nums.length - 1; i++ ){
+    for(var j =  i+1;  j<nums.length ; j++){
+        if (nums[i]+ nums[j] === target ){
+            console.log( nums[i] ,nums[j])
+        }
+    }
+}
+
