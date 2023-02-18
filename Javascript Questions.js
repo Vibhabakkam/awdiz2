@@ -65,3 +65,13 @@ for (i = 0; i<nums.length - 1; i++ ){
     }
 }
 
+//Q7 find addition of every second number from 57689-346578
+ 
+var firstDigit = 1
+var secondDigit = 10
+var add = 0 
+ for ( var i = firstDigit + 1 ; i< secondDigit; i = i+2){
+     add = add + i
+ }
+ console.log (add ,"add here")
+

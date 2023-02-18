@@ -21,7 +21,7 @@ for (i = 0; i<nums.length - 1; i++ ){
         }
     }
 }
-// }
+
 // find addition of every second number from 57689-346578
  
 // var firstDigit = 1
