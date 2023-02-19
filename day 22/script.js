@@ -20,6 +20,9 @@ function addTodo(){
         console.log(myTodosFromLS,"myTodosFromLS");
         localStorage.setItem("Todos", JSON.stringify(myTodosFromLS))
         document.getElementById('todosHere').value = "";
+        alert("Todo added !")
     }
-    
+    else{
+        alert('Add todo first,before submitting !');
+    }
 }
